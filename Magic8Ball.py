@@ -10,8 +10,13 @@ def main():
   #Create a list of your responses.
   print("Magic 8 Ball")
   #Prompt the user for their question.
-  answers = ["As I see it, yes.", "Ask again later.", "Better not tell you know." "Cannnot predict now.", "Concentrate and ask again.", 
-  "Don't count on it.", "It is certain.", "It is decidedly so."]
+  answers = ["As I see it, yes.", "Ask again later.", "Better not tell you know." 
+              "Cannnot predict now.", "Concentrate and ask again.", 
+              "Don't count on it.", "It is certain.", "It is decidedly so.", 
+              "Most likely.", "My reply is no.", "my sources say no.", 
+              "Outlook not so good.", "Outlook good.", "Reply hazy, try again.",
+              "Signs point to yes.", "Very doubtful.", "Without a doubt.",
+              "Yes.", "Yes - definitely.", "You may rely on it."]
   # Each item must be in quotes, serparated by a comma.
   #Answer question randomly with one of the options from your earlier list.
 
