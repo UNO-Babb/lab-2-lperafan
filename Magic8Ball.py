@@ -23,6 +23,7 @@ def main():
   num = random.random() #decimal 0 - 1
   num = num * 100 #number 0 - 999 with decimal
   num = int(num) # no more decimals
+  num = num % 20 #0 - 19
 
   things = len(answers)
   num = num % things
