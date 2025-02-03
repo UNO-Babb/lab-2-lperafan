@@ -10,8 +10,8 @@ def main():
   #Create a list of your responses.
   print("Magic 8 Ball")
   #Prompt the user for their question.
-  answers = ["As I see it, yes.", "Ask again later.", "Better not tell you know." 
-              "Cannnot predict now.", "Concentrate and ask again.", 
+  answers = ["As I see it, yes.", "Ask again later.", "Better not tell you know.", 
+              "Cannot predict now.", "Concentrate and ask again.", 
               "Don't count on it.", "It is certain.", "It is decidedly so.", 
               "Most likely.", "My reply is no.", "my sources say no.", 
               "Outlook not so good.", "Outlook good.", "Reply hazy, try again.",

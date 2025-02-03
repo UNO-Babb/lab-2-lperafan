@@ -25,14 +25,14 @@ def main():
   futureMinute = currentMinute + mins
   futureMinute = futureMinute % 60
 
-  futurehour = currentHour + hours
+  futureHour = currentHour + hours + (currentMinute + mins) // 60
   futureHour = futureHour % 24
 
   stsHour = str(futureHour)
-  strMin = str(fututreMinute)
+  strMin = str(futureMinute)
   if futureMinute < 10:
       strMin = "0" + strMin #add a leading zero to one digit min
-  print(strHour + "." + strMin)
+  print(stsHour + "." + strMin)
   #Ask user for minutes
 
   #Calculate the time after the user-supplied time has passed.
